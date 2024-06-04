@@ -1,0 +1,8 @@
+python-dotenv
+pyttsx3
+pyowm
+langchain
+langchain-groq
+crewai
+gTTS
+pydub
