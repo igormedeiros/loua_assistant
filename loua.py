@@ -11,7 +11,7 @@ def main():
         # Discover the intention and suggest a function
         suggested_function = function_call(prompt)
         
-        if suggested_function == 'Nenhum':
+        if suggested_function == 'Nenhum' or suggested_function is None:
             response_text = chat_task.run(prompt)
         else:
             confirmation = input(f"Loua: Você gostaria de {suggested_function}?\nVocê: ")

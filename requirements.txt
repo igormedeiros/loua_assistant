@@ -2,7 +2,9 @@ python-dotenv
 pyttsx3
 pyowm
 langchain
+langchain_community
 langchain-groq
 crewai
 gTTS
 pydub
+    
